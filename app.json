@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "SafeEye Mobile",
+    "slug": "safeeye-mobile",
+    "scheme": "safeeye",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
+    "splash": {
+      "backgroundColor": "#0f172a"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.safeeye.mobile"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safeeye.mobile"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

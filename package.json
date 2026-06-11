@@ -1,0 +1,32 @@
+{
+  "name": "safeeye-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "@microsoft/signalr": "^10.0.0",
+    "expo": "~54.0.21",
+    "expo-location": "~17.0.1",
+    "expo-secure-store": "~15.0.8",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-maps": "^1.27.2",
+    "react-native-webview": "^13.16.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.29.7",
+    "@babel/plugin-transform-private-methods": "^7.29.7",
+    "@babel/plugin-transform-private-property-in-object": "^7.29.7",
+    "@types/react": "~19.1.12",
+    "babel-preset-expo": "~54.0.10",
+    "typescript": "~5.9.2"
+  }
+}
